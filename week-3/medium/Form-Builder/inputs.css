@@ -1,0 +1,73 @@
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    column-gap: 10px;
+}
+.form{
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    height: 230px;
+}
+h3{
+    background-color: #e6141488;
+    font-size: 24px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 6px;
+    
+
+}
+
+.preview{
+    border: 2px black solid;
+    width: 300px;
+    border-radius: 12px;
+    padding: 12px;
+
+}
+.preview h4{
+    margin: 0;
+    background-color: #7329d596;
+    width: 94px;
+    text-align: left;
+    padding: 6px 8px;
+    margin-bottom:12px ;
+    border-radius: 4px;
+
+}
+.preview input{
+    margin-bottom: 8px;
+}
+.ramu label{
+    border:1px #9b989f solid;
+    padding: 1px 4px;
+    border-radius: 2px;
+}
+
+select{
+    background-color: aqua;
+    border: 2px black solid;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+
+.form input{
+    border: 2px black solid;
+    padding: 8px;
+    border-radius: 4px;
+}
+h4 button{
+    background-color: #ffffff80;
+    margin-left: 2px;
+    border-radius: 3px;
+    border: 2px rgb(118, 107, 107) solid;
+}
+
+
+h4 button:hover{
+    background-color: rgba(82, 79, 79, 0.679);
+    color: white;
+    border:2px rgb(205, 194, 194) solid;
+}

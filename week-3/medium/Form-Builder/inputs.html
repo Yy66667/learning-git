@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>input type</title>
+        <link rel="stylesheet" href="inputs.css">
+    </head>
+    <body>
+        <div class="main">
+        <div class="form">
+            <h3>Form Builder</h3>
+            <h4>Select Field Type</h4>
+           
+        <select id="cars" name="cars">
+            <option value="text">text input</option>
+            <option value="checkbox">checkbox</option>
+            <option value="radio">radio button</option>
+          </select>
+
+          <h4>Feild label</h4>
+          <input class="input-feild" type="text">
+
+
+          <input value="submit" type="submit" onclick=run()>
+            
+        </div>
+
+        <div class="preview">
+            <h4>Preview <button onclick="empty()">&#8634</button></h4>
+            <div class="ramu"></div>
+          
+        </div>
+
+
+
+
+</div>
+
+
+        <script>
+            function run(){
+            let ans = document.querySelector('#cars').value;
+            let feild = document.querySelector('.input-feild').value;
+
+            document.querySelector('.ramu').innerHTML+=`<input type="${ans}" id="input-box-${ans}"> <label for="input-box-${ans}" >  ${feild}</label><br>`
+
+            console.log(ans, feild)}
+
+            function empty(){
+
+            document.querySelector('.ramu').innerHTML=``
+            }
+        </script>
+    </body>
+    
+</html>

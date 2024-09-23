@@ -1,0 +1,16 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "Your task is to design and implement a Quiz application that meets the following requirements:",
+  "main": "data.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
